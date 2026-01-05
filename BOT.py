@@ -4,8 +4,8 @@ import threading
 import os
 
 # إعدادات البوت
-BOT_TOKEN = "ضع_توكن_البوت_هنا"
-bot = telebot.TeleBot(8445692587:AAGfNFJN1T04OyFxTiNItkeBM3AB3OtOWGU)
+BOT_TOKEN = "8445692587:AAGfNFJN1T04OyFxTiNItkeBM3AB3OtOWGU"
+bot = telebot.TeleBot(BOT_TOKEN)
 app = Flask(__name__)
 
 # كود HTML الكامل للموقع مدمج مباشرة
@@ -749,3 +749,11 @@ def send_info(message):
 print("✅ البوت والموقع يعملان الآن...")
 print("🌐 الموقع متاح على: http://localhost:8080")
 bot.infinity_polling()
+```
+
+---
+
+## **📦 ملف requirements.txt:**
+```
+pyTelegramBotAPI
+flask
