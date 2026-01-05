@@ -5,7 +5,7 @@ import os
 
 # إعدادات البوت
 BOT_TOKEN = "ضع_توكن_البوت_هنا"
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(8445692587:AAGfNFJN1T04OyFxTiNItkeBM3AB3OtOWGU)
 app = Flask(__name__)
 
 # كود HTML الكامل للموقع مدمج مباشرة
